@@ -5,7 +5,7 @@ from program_list import GetProgramList
 
 class Interface:
 
-    def __init__(self, root):
+    def __init__(self, root: Tk):
         self.root = root
         self.root.title('ADHD Helper')
         program_list = GetProgramList()

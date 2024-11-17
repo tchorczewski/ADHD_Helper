@@ -2,7 +2,7 @@ import os
 import subprocess
 
 
-def _process_output(data):
+def _process_output(data: str) -> list:
     lines = data.splitlines()
 
     # Find where 'DisplayName' is and remove the header and dashed lines
