@@ -17,4 +17,3 @@ Where-Object {
 # Remove the 'Publisher' property from the output
 Select-Object DisplayName |
 Sort-Object DisplayName
-# Out-File -FilePath .\Installed_Programs.txt
